@@ -25,3 +25,7 @@
 			3. Into screenshots folder: attach a screenshots of your program running.
 						
 	3. To upload the newly created project to GitHub.
+	
+	4. Create workspace to present (explain) your project.
+	
+	5. Download project from GitHub and test it within the newly workspace
