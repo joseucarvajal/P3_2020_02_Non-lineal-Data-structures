@@ -1,9 +1,9 @@
  ------------------ Deadline: thursday, August 20 -----------------------------
-	1. To set up new GitHub repository
-	2. To create a new Eclipse project. To solve following requirements:
+	1. To set up a new GitHub repository
+	2. To create a new Eclipse project. To solve the following requirements:
 		There are going to be a handful of students. Each student is going to have: name, payment.
 		The system should be able to: 		
-			1.To create a method: "getDiffAvg(....)" Difference between payment average and students with the greatest payment value.
+			1. To create a method: "getDiffAvg(....)" Difference between payment average and the student with the greatest payment value.
 				Ej:
 					Students:
 						Pepito		2000
@@ -18,14 +18,14 @@
 					Output:
 						Difference between payment average and student with the greatest payment is: 1760
 						
-			2. To shape the stack trace to show the behaviour for "getDiffAvg(...)" starting from the main(....) method.
+			2. To shape the stack trace to show the behavior for "getDiffAvg(...)" starting from the main(....) method.
 				This shape, must be done in your own notebooks.
 				Inside the newly JAVA project: to create a new folder with the screenshots taken out of your notebooks.
 				
-			3. Into screenshots folder: attach a screenshots of your program running.
+			3. Into screenshots folder: attach a screenshot of your program running.
 						
 	3. To upload the newly created project to GitHub.
 	
-	4. Create workspace to present (explain) your project.
+	4. To create workspace to present (explain) your project.
 	
-	5. Download project from GitHub and test it within the newly workspace
+	5. Download the project from GitHub and test it within the newly created workspace
