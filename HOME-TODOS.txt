@@ -29,3 +29,37 @@
 	4. To create workspace to present (explain) your project.
 	
 	5. Download the project from GitHub and test it within the newly created workspace
+	
+------------------ Deadline: friday, August 28 -----------------------------
+2. To solve following problemas by usign recursion:
+	a) Create an algorithm to divide two numbers (a, b).
+		Ej: 
+			input
+				a = 60, b = 15. 
+			output
+				4
+	b) Calculate a pow b:
+		Ej: 
+			input
+				a = 2, b = 3
+			Output
+				a pow b = 2 * 2 * 2 = 8
+	c) N! (N factorial) is defined as follow:
+		N! = 1*2*3*4*5...*N.
+		Example:
+			n = 5
+			n! = 5 * 4 * 3 * 2 * 1 = 120
+			n! = 120
+			5! = 120
+		Create a recursive function to solve n!.
+	d) A function that adds all of the elements into an array
+		Ej: arr = [1, 3, 4]
+			result = 8
+	e) Given an array, count even and odd numbers.
+		Ej: 
+			Input
+				arr = [2, 7, 9, 13, 8]
+			Onput
+				even numbers count = 2
+				odd numbers count = 3
+			
