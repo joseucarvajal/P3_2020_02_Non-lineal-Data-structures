@@ -62,4 +62,60 @@
 			Onput
 				even numbers count = 2
 				odd numbers count = 3
-			
+				
+------------------ Final project, deadline: September, saturday 12 -----------------------------
+Solve following problems using recursion.
+
+	1. Given a number check whether the number is prime or not
+		A prime number is a number that could be divided by 1 and itself
+		Ej 1. 
+			Input
+				n = 18
+			Output
+				No
+		Ej 2.
+			Input
+				n = 17
+			 Output
+				Si
+				
+	2. Get the greatest element in an array
+		Ej1:
+			Input
+				arr = [3, 7, 25, 13]
+			Output
+				greatest = 25
+				
+	3. Check whether an array is a palindrome value or not. Returns 1 if a[] is a palindrome, 0 otherwise
+		Ej1:
+			Input
+				arr = [3, 5, 8, 5]
+			Output
+				0
+		Ej2:
+			Input
+				arr = [5, 8, 5]
+			Output
+				1
+		Ej3: 
+			Input
+				arr = []
+			Output
+				1
+	
+	4. Write a program to count the digits of a given number using recursion.
+			Ej :
+				Input 
+					number : 50
+				Output:
+					2
+
+	More exercises to practice
+		https://www.w3resource.com/c-programming-exercises/recursion/index.php
+	
+
+	Constraints:
+		1. Individual
+		2. Attach the solution screenshot (analysis, design, design probe concept and program running), development = code.
+		3. Upload to a new GitHub repository named "recursion-tecnique"
+		4. Individual problems presentation
