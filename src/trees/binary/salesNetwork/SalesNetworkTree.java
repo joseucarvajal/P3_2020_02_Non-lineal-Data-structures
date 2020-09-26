@@ -28,4 +28,35 @@ public class SalesNetworkTree {
 		return balance(root) + balance(root.left) + balance(root.right);
 	}
 	
+	//Condition: root can not be null
+	public float getSmallestBalance(SellerNode root) {
+			
+		if(root.left != null) {
+			if(root.right != null) {
+				return Math.min(balance(root), Math.min(balance(root.left), balance(root.right)));
+			}
+		}
+		
+		if(root.right != null) {
+			return Math.min(balance(root), balance(root.right));
+		}
+		
+		return balance(root);		
+	}
+
+	//Condition: root can not be null
+	public float getLongestBalance(SellerNode root) {
+		if(root.left != null) {
+			if(root.right != null) {
+				return Math.max(balance(root), Math.max(balance(root.left), balance(root.right)));
+			}
+		}
+		
+		if(root.right != null) {
+			return Math.max(balance(root), balance(root.right));
+		}
+		
+		return balance(root);		
+	}
+	
 }

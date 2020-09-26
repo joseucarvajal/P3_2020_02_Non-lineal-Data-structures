@@ -17,12 +17,18 @@ public class SalesNetworkProgram {
 		
 		salesNetworkTree.root = m;
 		
-		float balance = salesNetworkTree.balance(l);
-		System.out.println("Balance: " + balance);
+		float balance = salesNetworkTree.balance(m);
+		System.out.println("M Balance: " + balance);
 		
 		float totalBalance = salesNetworkTree.totalNetworkBalance(m);
 		System.out.println("Total balance: " + totalBalance);
-
+		
+		float smallestBalance = salesNetworkTree.getSmallestBalance(m);
+		System.out.println("Smallest balance: " + smallestBalance);
+		
+		float longestBalance = salesNetworkTree.getLongestBalance(m);
+		System.out.println("Longest balance: " + longestBalance);
+		
 	}
 
 }

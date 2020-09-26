@@ -119,3 +119,16 @@ Solve following problems using recursion.
 		2. Attach the solution screenshot (analysis, design, design probe concept and program running), development = code.
 		3. Upload to a new GitHub repository named "recursion-tecnique"
 		4. Individual problems presentation
+	
+========================================== Second stage
+------------------ Deadline: friday, October the 2nd -----------------------------	
+1. Create a new GitHub repository called "sales-network-linked-lists"
+2. Create a new Java project and solve following requirements by using custom linked list. It not allowed to use the native Java List classes.
+	Requirements
+		Get the balance according to a given seller
+		Get total amount of balance within the network
+		The seller with the largest balance
+		The seller with the smallest balance
+3. Create a newtork tree with at least 10 sellers
+4. Attach screenshots with the results outcome.
+5. This project must be versioned into the newly GitHub repository "sales-network-linked-lists"
