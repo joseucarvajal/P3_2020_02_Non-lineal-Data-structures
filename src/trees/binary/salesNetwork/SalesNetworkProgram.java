@@ -9,26 +9,36 @@ public class SalesNetworkProgram {
 		salesNetworkTree.membershipDiscountPercentaje = 10;
 		salesNetworkTree.commissionProfitPercentaje = 25;
 		
-		SellerNode m = new SellerNode();
-		SellerNode l = new SellerNode();
-		SellerNode r = new SellerNode();
-		m.left = l;
-		m.right = r;
+		SellerNode maria = new SellerNode();
+		maria.sellerName = "Maria";
+		SellerNode luis = new SellerNode();
+		luis.sellerName = "Luis";
+		SellerNode pedro = new SellerNode();
+		pedro.sellerName = "Pedro";
+		maria.left = luis;
+		maria.right = pedro;
 		
-		salesNetworkTree.root = m;
+		SellerNode pepito = new SellerNode();
+		pepito.sellerName = "Pepito";
+		pedro.left = pepito;
 		
-		float balance = salesNetworkTree.balance(m);
-		System.out.println("M Balance: " + balance);
+		SellerNode carlitos = new SellerNode();
+		carlitos.sellerName = "Carlitos";
+		pepito.right = carlitos;
 		
-		float totalBalance = salesNetworkTree.totalNetworkBalance(m);
+		salesNetworkTree.root = maria;
+		
+		float balance = salesNetworkTree.balance(maria);
+		System.out.println("Maria's Balance: " + balance);
+		
+		float totalBalance = salesNetworkTree.totalNetworkBalance(maria);
 		System.out.println("Total balance: " + totalBalance);
 		
-		float smallestBalance = salesNetworkTree.getSmallestBalance(m);
+		float smallestBalance = salesNetworkTree.getSmallestBalance(maria);
 		System.out.println("Smallest balance: " + smallestBalance);
 		
-		float longestBalance = salesNetworkTree.getLongestBalance(m);
-		System.out.println("Longest balance: " + longestBalance);
-		
+		float longestBalance = salesNetworkTree.getLongestBalance(maria);
+		System.out.println("Longest balance: " + longestBalance);		
 	}
 
 }

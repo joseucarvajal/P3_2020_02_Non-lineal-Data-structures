@@ -122,13 +122,26 @@ Solve following problems using recursion.
 	
 ========================================== Second stage
 ------------------ Deadline: friday, October the 2nd -----------------------------	
+NOTE: 
 1. Create a new GitHub repository called "sales-network-linked-lists"
-2. Create a new Java project and solve following requirements by using custom linked list. It not allowed to use the native Java List classes.
 	Requirements
 		Get the balance according to a given seller
 		Get total amount of balance within the network
 		The seller with the largest balance
 		The seller with the smallest balance
-3. Create a newtork tree with at least 10 sellers
-4. Attach screenshots with the results outcome.
-5. This project must be versioned into the newly GitHub repository "sales-network-linked-lists"
+2. Create a newtork tree with at least 10 sellers
+3. Attach screenshots with the results outcome.
+4. This project must be versioned into the newly GitHub repository "sales-network-linked-lists"
+
+
+
+------------------- Final project -------------------
+Not available students for presenting test on saturday (24). Test is going to be reescheduled to sunday 25:
+	Carlos Mario Franco: 8:00 a.m.
+	Cristian Camilo Vasquez Rincón: 8:20 a.m.
+	Cristian Stiven Franco Montoya: 8:40 a.m.
+	Maicol Stiven Mancera: 9:00 a.m.
+	Juan David Galvis: 9:20 a.m.
+
+
+	

@@ -8,6 +8,9 @@ public class SalesNetworkTree {
 	
 	SellerNode root;
 	
+	/*
+	 * Sólo calcula comisiones
+	 * */
 	public float balance(SellerNode node) {
 		if(node == null) {
 			return 0;		
@@ -15,17 +18,28 @@ public class SalesNetworkTree {
 				
 		float leftChildBalance = balance(node.left);
 		leftChildBalance = leftChildBalance*(commissionProfitPercentaje/100);
+		
 
 		float rightChildBalance = balance(node.right);
 		rightChildBalance = rightChildBalance*(commissionProfitPercentaje/100);
-		
-		return membershipInitialFee - (membershipInitialFee * membershipDiscountPercentaje/100) 
-				+ leftChildBalance 
+				
+		float rootBalance = membershipInitialFee - (membershipInitialFee * membershipDiscountPercentaje/100);
+		float totalBalance =  
+				+ rootBalance
+				+ leftChildBalance
 				+ rightChildBalance;
+		
+		node.balance = totalBalance;
+		return totalBalance;
 	}
 	
 	public float totalNetworkBalance(SellerNode root) {
-		return balance(root) + balance(root.left) + balance(root.right);
+		
+		if(root == null) {
+			return 0;
+		}
+
+		return root.balance + totalNetworkBalance(root.left) + totalNetworkBalance(root.right);
 	}
 	
 	//Condition: root can not be null
