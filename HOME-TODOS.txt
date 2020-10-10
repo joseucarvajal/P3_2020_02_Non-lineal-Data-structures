@@ -153,7 +153,7 @@ Description
 	2. Create new repository in GitHub called "covid-19-bst"
 	3. Your program should allow to register Covid-29 patient all around the world. Requirements:
 	
-		1) Your system should allow to register new pacientes from a file.
+		1) Your system should allow to register new patients and their symptoms from a file.
 		
 		2) The system should not allow register the same patient twice. 
 			(e.g.) :
