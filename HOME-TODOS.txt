@@ -136,6 +136,11 @@ NOTE:
 
 
 ------------------- Final project -------------------
+
+Saturday 17: Project support. At 8:00 a.m.
+
+Exam: Saturday 24 in the University
+
 Not available students for presenting test on saturday (24). Test is going to be reescheduled to sunday 25:
 	Carlos Mario Franco: 8:00 a.m.
 	Cristian Camilo Vasquez Rincón: 8:20 a.m.
@@ -143,5 +148,38 @@ Not available students for presenting test on saturday (24). Test is going to be
 	Maicol Stiven Mancera: 9:00 a.m.
 	Juan David Galvis: 9:20 a.m.
 
-
+Description
+	1. Create a new project called "covid-19-bst"
+	2. Create new repository in GitHub called "covid-19-bst"
+	3. Your program should allow to register Covid-29 patient all around the world. Requirements:
+	
+		1) Your system should allow to register new pacientes from a file.
+		
+		2) The system should not allow register the same patient twice. 
+			(e.g.) :
+				1) patient Maria is registered with id = 15
+					Result: Maria is added to the system
+				2) patient Carlos is register with id = 64
+					Result: Carlos is added to the system
+				3) patien maria with id = 15 tries to register. 
+					Result: Maria is duplicated, so Maria couldn't be added to the system again.
+							The system should continue working.
+							
+		3) The system should allow review one specific patient symptoms.
+			e.g.:
+				Carlos has 5 symptoms: feber, headache...etc, 
+				If one user search Carlos by id
+				the system should allow to review Carlos's symptoms
+				
+		4) All of the patients should pay for a threatment as per the symptoms number:
+			e.g.
+				Carlos has 3 symptoms, Carlos should pay: 300
+				Maria has 5 symptoms, Maria should pay: 500
+		
+		5) The system should report the following information:
+			a) How many patients does have feber
+			b) What's the most common symptom
+			c) What the patients payment average (should cover all of the patients)
+			d) What's the patient name with the biggets number of symptoms
+			
 	
